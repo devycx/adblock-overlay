@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         隐形广告遮罩拦截器（点任意位置跳广告）
-// @namespace    https://github.com/ycx/adblock-overlay
-// @version      1.0.0
+// @namespace    https://github.com/devycx/adblock-overlay
+// @version      1.0.1
 // @description  干掉移动端网页上「看不见但能点」的广告遮罩（position:fixed + opacity≈0.01 的全屏覆盖层），并拦截点击跳转广告的监听器、广告外链脚本与广告 WebSocket。
 // @author       ycx
 // @license      MIT
+// @homepageURL  https://github.com/devycx/adblock-overlay
+// @supportURL   https://github.com/devycx/adblock-overlay/issues
 // @match        *://*/*
 // @run-at       document-start
 // @grant        none
